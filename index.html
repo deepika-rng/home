@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Camera Store Homepage</title>
+  <style>
+    body {font-family: Arial, sans-serif; margin:0; padding:0;}
+    header {background:#333; color:#fff; padding:10px;}
+    nav ul {list-style:none; margin:0; padding:0; display:flex;}
+    nav ul li {position:relative; padding:10px 20px; cursor:pointer;}
+    nav ul li:hover ul {display:block;}
+    nav ul li ul {display:none; position:absolute; top:40px; left:0; background:#444; padding:10px;}
+    nav ul li ul li {padding:5px 10px;}
+
+    .hero {background:#eee url('hero-placeholder.jpg') center/cover no-repeat; text-align:center; padding:100px 20px;}
+    .hero h1 {font-size:48px; margin:0;}
+    .hero p {font-size:20px;}
+    .hero button {padding:10px 20px; font-size:18px; margin-top:20px;}
+
+    .categories, .featured {display:flex; justify-content:space-around; padding:40px 20px;}
+    .categories div, .featured div {background:#f9f9f9; padding:20px; text-align:center; width:22%; border:1px solid #ddd;}
+
+    .seo {padding:40px 20px; background:#fafafa;}
+    .seo h2 {margin-bottom:20px;}
+    .seo img {float:right; width:200px; margin-left:20px;}
+    .seo p {text-align:justify;}
+
+    .promo {background:#ffcc00; text-align:center; padding:20px; font-size:20px; font-weight:bold;}
+
+    footer {background:#333; color:#fff; padding:20px;}
+    footer .links, footer .social, footer .newsletter {margin-bottom:20px;}
+    footer input[type="email"] {padding:8px; width:200px;}
+    footer button {padding:8px 12px;}
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <ul>
+      <li>Cameras
+        <ul>
+          <li>DSLR</li>
+          <li>Mirrorless</li>
+        </ul>
+      </li>
+      <li>Lenses
+        <ul>
+          <li>Wide Angle</li>
+          <li>Telephoto</li>
+        </ul>
+      </li>
+      <li>Accessories</li>
+      <li>Deals</li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Capture Every Moment</h1>
+  <p>Discover the best cameras for professionals and enthusiasts.</p>
+  <button>Shop Now</button>
+</section>
+
+<section class="categories">
+  <div>DSLR Cameras</div>
+  <div>Mirrorless Cameras</div>
+  <div>Camera Accessories</div>
+</section>
+
+<section class="featured">
+  <div><img src="product1.jpg" alt="Product 1"><p>Camera A - $499</p><button>Add to Cart</button></div>
+  <div><img src="product2.jpg" alt="Product 2"><p>Camera B - $699</p><button>Add to Cart</button></div>
+  <div><img src="product3.jpg" alt="Product 3"><p>Camera C - $899</p><button>Add to Cart</button></div>
+  <div><img src="product4.jpg" alt="Product 4"><p>Camera D - $1099</p><button>Add to Cart</button></div>
+</section>
+
+<section class="seo">
+  <h2>Why Choose Our Camera Store</h2>
+  <img src="seo-image.jpg" alt="SEO Image">
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    Sed euismod, nunc at laoreet facilisis, justo erat tincidunt 
+    lorem, nec posuere lorem nulla nec purus. Integer vel ligula 
+    nec nulla fermentum tincidunt. Praesent vel sapien vitae 
+    libero tincidunt posuere. Donec nec risus nec nulla 
+    ullamcorper facilisis. Suspendisse potenti. Curabitur 
+    malesuada, lorem nec tincidunt tincidunt, sapien justo 
+    facilisis lorem, nec posuere lorem nulla nec purus. 
+    (Approx. 175 words filler text)
+  </p>
+</section>
+
+<section class="promo">
+  Spring Sale – Up to 30% Off!
+</section>
+
+<footer>
+  <div class="links">
+    <p>About Us | Contact | FAQs | Privacy Policy</p>
+  </div>
+  <div class="social">
+    <p>Follow us: Facebook | Instagram | Twitter | YouTube</p>
+  </div>
+  <div class="newsletter">
+    <p>Subscribe to our newsletter:</p>
+    <input type="email" placeholder="Enter your email">
+    <button>Subscribe</button>
+  </div>
+</footer>
+
+</body>
+</html>
